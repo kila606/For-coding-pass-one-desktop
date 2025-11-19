@@ -2,18 +2,33 @@
 #include <string>
 using namespace std;
 
+string months[12] = { "January", "February", "March", "April","May", "June", "July", "August","September", "October", "November", "December" };
 
+
+bool is29(int year) {
+	return (y % 400 == 0) || ((y % 100 != 0) && (y % 4 == 0));
+}
+
+
+int firstdayofmonth(int year, int month)
+{
+	int num = 0;
+	if(is29(year)) 
+
+
+
+
+	return(num);
+}
 int main()
 {
 	// Put your code below
-	string months[12] = {"January", "February", "March", "April","May", "June", "July", "August","September", "October", "November", "December"};
-	int year = 0, month = 0,date=0;
-	bool x = false; //false 代表負數 true 代表正數
+	int year = 0, month = 0;
 	
-	while (scanf_s("%4d-%2d %d", &year,&month,&date))
+
+	while (scanf_s("%4d-%2d", &year,&month))
 	{
-		if (date > 0) x = true;
-		else x = false;
+		
 		
 		
 
