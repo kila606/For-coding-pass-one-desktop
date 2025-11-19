@@ -14,7 +14,7 @@ int main()
 	{
 		if (date > 0) x = true;
 		else x = false;
-
+		
 		
 
 
