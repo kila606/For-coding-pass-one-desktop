@@ -20,7 +20,7 @@ int main()
 
 	while (scanf_s("%4d-%2d", &year, &month))
 	{
-		if (is29(year))days[2] = 29;
+		if (is29(year))days[1] =;
 	}
 
 
